@@ -1,2 +1,2 @@
 # **Indian Trade Company**
-An e-commerce website based on the Jekyll theme lanyon.
+An e-commerce website made using Jekyll.

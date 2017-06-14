@@ -1,6 +1,4 @@
 ---
-layout: home
-title: Home
 images:
   - image_path: /images/slideshow_1.jpg
     title: 1
@@ -13,10 +11,10 @@ images:
   - image_path: /images/slideshow_8.jpg
     title: 5
 ---
-<div class="slider">
-  {% for image in page.images %}
-  <img class="mySlides animate-fading" src="{{image.image_path}}" alt="image.title" style="width:100%">
-  {% endfor %}
+
+<div>
+  <img class="mySlides animate-fading" src="/images/slideshow_1.jpg" alt="1" style="width:100%">
+  <img class="mySlides animate-fading" src="/images/slideshow_2.jpg" alt="2" style="width:100%">
 </div>
 
 
@@ -36,6 +34,3 @@ function carousel() {
     setTimeout(carousel, 9000);
 }
 </script>
-
-
-  <p> test content </p>
