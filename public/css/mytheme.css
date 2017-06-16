@@ -122,6 +122,12 @@ li a:hover {
   text-decoration: none;
 }
 
+#itc{
+  font-weight: 500;
+  font-size: 55px;
+  text-align: center;
+}
+
 #page-with-contact-form{
   display: block;
 }
