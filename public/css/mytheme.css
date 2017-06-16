@@ -51,13 +51,32 @@ input{
 
 .nav{
   position: relative;
-  border-bottom: 1.5px solid #dddddd;
-  border-top:  1.5px solid #dddddd;
+  border-bottom: 1.5px solid #ddd;
+  border-top:  1.5px solid #ddd;
 }
 
 .page{
   margin-top: 20px;
   display: block;
+}
+
+.heading{
+  margin-top: 2.5px;
+  font-weight: 400;
+}
+
+.page-heading{
+  margin: 22.5px 0 25px 0;
+}
+
+.gallery-item{
+  width: 31%;
+  height: 186px;
+  overflow: hidden;
+  margin-left: 18px;
+  margin-bottom: 18px;
+  display: block;
+  float: left;
 }
 
 .span12, .span4, .span8{
@@ -73,15 +92,15 @@ input{
   width: 33%;
 }
 .span8{
-  margin-left: 15px;
+  margin-left: 25px;
   width: 60%;
 }
 
 ul{
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 li{
@@ -92,7 +111,7 @@ li{
 li a {
   font: 400 16px/1.8 Lato, sans-serif;
   display: block;
-  color: #aaaaaa;
+  color: #888;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -101,11 +120,6 @@ li a {
 li a:hover {
   color: #111;
   text-decoration: none;
-}
-
-#contact-heading{
-  margin-top: 2.5px;
-  font-weight: 400;
 }
 
 #page-with-contact-form{
@@ -130,10 +144,14 @@ li a:hover {
 {
 .wrapper {
     width: 738px;}
+.gallery-item{
+    height: 142px;}
 }
 
 @media only screen and (max-width: 629px) and (min-width: 510px)
 {
 .wrapper {
     width: 450px;}
+.gallery-item{
+  height: 142px;}
 }

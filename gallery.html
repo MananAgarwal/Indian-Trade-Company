@@ -1,0 +1,62 @@
+---
+layout: default
+title: Gallery
+images:
+  - image_path: /images/slideshow_1.jpg
+    title: 1
+  - image_path: /images/slideshow_2.jpg
+    title: 2
+  - image_path: /images/slideshow_3.jpg
+    title: 3
+  - image_path: /images/slideshow_4.jpg
+    title: 4
+  - image_path: /images/slideshow_8.jpg
+    title: 5
+  - image_path: /images/gallery1.jpg
+    title: 6
+  - image_path: /images/gallery2.jpg
+    title: 7
+  - image_path: /images/gallery4.jpg
+    title: 9
+  - image_path: /images/gallery5.jpg
+    title: 10
+  - image_path: /images/gallery6.jpg
+    title: 11
+  - image_path: /images/gallery7.jpg
+    title: 12
+  - image_path: /images/gallery8.jpg
+    title: 13
+  - image_path: /images/gallery9.jpg
+    title: 14
+  - image_path: /images/gallery10.jpg
+    title: 15
+  - image_path: /images/gallery11.jpg
+    title: 16
+  - image_path: /images/gallery12.jpg
+    title: 17
+  - image_path: /images/gallery13.jpg
+    title: 18
+  - image_path: /images/gallery14.jpg
+    title: 19
+  - image_path: /images/gallery15.jpg
+    title: 20
+  - image_path: /images/gallery16.jpg
+    title: 21
+  - image_path: /images/gallery17.jpg
+    title: 22
+  - image_path: /images/gallery18.jpg
+    title: 23
+  - image_path: /images/gallery19.jpg
+    title: 24
+  - image_path: /images/gallery20.jpg
+    title: 25
+
+---
+<h1 class="heading page-heading">Gallery</h1>
+<div>
+  {%for image in page.images%}
+  <div class="gallery-item">
+    <img src="{{image.image_path}}" title="{{image.title}}">
+  </div>
+  {% endfor %}
+</div>
