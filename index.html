@@ -2,20 +2,20 @@
 layout: default
 title: Home
 images:
-  - image_path: {{ site.baseurl }}/images/slideshow_1.jpg
+  - image_path:/images/slideshow_1.jpg
     title: 1
-  - image_path: {{ site.baseurl }}/images/slideshow_2.jpg
+  - image_path:/images/slideshow_2.jpg
     title: 2
-  - image_path: {{ site.baseurl }}/images/slideshow_3.jpg
+  - image_path:/images/slideshow_3.jpg
     title: 3
-  - image_path: {{ site.baseurl }}/images/slideshow_4.jpg
+  - image_path:/images/slideshow_4.jpg
     title: 4
-  - image_path: {{ site.baseurl }}/images/slideshow_8.jpg
+  - image_path:/images/slideshow_8.jpg
     title: 5
 ---
 <div class="slider">
   {% for image in page.images %}
-  <img class="mySlides animate-fading" src="{{image.image_path}}" alt="image.title" style="width:100%">
+  <img class="mySlides animate-fading" src="{{ site.baseurl }}{{image.image_path}}" alt="image.title" style="width:100%">
   {% endfor %}
 </div>
 
