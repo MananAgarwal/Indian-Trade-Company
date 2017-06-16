@@ -2,7 +2,7 @@
 title:               Indian Trade Company
 tagline:             Amazingly Indian
 
-baseurl: "/Indian-Trade-Company/" # the subpath of your site, e.g. /blog
+baseurl: "/Indian-Trade-Company" # the subpath of your site, e.g. /blog
 url: "http://MananAgarwal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
