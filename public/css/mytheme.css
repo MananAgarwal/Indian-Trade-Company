@@ -123,15 +123,15 @@ li a:hover {
 }
 
 #logo-container{
-  width: 60%;
-  height: 375px;
+  width: 50%;
+  height: 315px;
   overflow: hidden;
   display: block;
   margin: 0 auto;
 }
 
 #logo{
-  margin-top: -40px;
+  margin-top: -30px;
 }
 
 #itc{
