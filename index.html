@@ -15,7 +15,7 @@ images:
 ---
 <div class="slider">
   {% for image in page.images %}
-  <img class="mySlides animate-fading" src="{{image.image_path}}" alt="image.title" style="width:100%">
+  <img class="mySlides animate-fading" src="{{site.baseurl}}{{image.image_path}}" alt="image.title" style="width:100%">
   {% endfor %}
 </div>
 
