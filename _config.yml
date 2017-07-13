@@ -2,8 +2,8 @@
 title:               Indian Trade Company
 tagline:             Amazingly Indian
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mananagarwal.me" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Indian-Trade-Company" # the subpath of your site, e.g. /blog
+url: "http://MananAgarwal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
